@@ -1,4 +1,4 @@
-## I am Alexander
+## Hi there, I'm Alexander Sibhatu 👋 
 ---
 
 <h3>🧰 Frameworks and Libraries</h3>

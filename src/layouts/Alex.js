@@ -1,14 +1,7 @@
-import React, { useEffect } from 'react'
 import './alex.css'
 
 const Alex = () => {
 
-    useEffect(() => {
-        const name = document.querySelectorAll('#name path');
-        for(let i=0; i < name.length; i++){
-            console.log(`Letter ${i} is ${name[i].getTotalLength()}`)
-        }
-    }, [])
     
   return (
     <svg id="name" width="221" height="20" viewBox="0 0 221 20" fill="none" xmlns="http://www.w3.org/2000/svg">

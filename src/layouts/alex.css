@@ -5,6 +5,8 @@
   }
 
 #name {
+    width: 100%; 
+    height: auto; 
     top: 5%;
     left: 7%;
     animation: fill .5s ease forwards 6.5s
@@ -102,5 +104,20 @@
     }
     to{
         fill: #1ABC9C;
+    }
+}
+
+
+/* Medium screens (e.g., tablets) */
+@media (max-width: 768px) {
+    #name {
+        width: 80%; /* Slightly smaller on medium screens */
+    }
+}
+
+/* Large screens (e.g., desktops) */
+@media (max-width: 640px) {
+    #name {
+        width: 60%; /* Even smaller on large screens */
     }
 }

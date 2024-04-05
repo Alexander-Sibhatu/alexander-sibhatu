@@ -82,7 +82,20 @@ const Nav = () => {
         <div className={`${isMenuOpen ? 'hidden' :'talk flex flex-row justify-end  gap-4 w-1/2 md:w-2/7 text-sm sm:text-base md:text-lg lg:text-xl'}`}>
             
             <a href='/Alexanders-CV.pdf' target='_blank' className='flex text-[#34495E] text-lg'><img src={Doc} alt="Document icon" className='flex items-center w-[1.5rem] h-[1.5rem]' />&nbsp;Résumé</a>
-            <p className='bg-[#34495E] px-2 rounded-full text-lg text-[#FFF8E7] hidden md:block'>Find me</p>
+            <Link 
+                activeClass="active" 
+                to="contact" 
+                spy={true}
+                hashSpy={true}
+                delay={80}
+                smooth={true} 
+                offset={-80} 
+                duration={500}
+                onClick={handleLinkClick}  
+                >
+                    <p className='bg-[#34495E] px-2 cursor-pointer rounded-full text-lg text-[#FFF8E7] hidden md:block'>Find me</p>
+            </Link>
+            
         </div>
     </div>
   )

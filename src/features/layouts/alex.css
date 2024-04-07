@@ -111,7 +111,7 @@
 /* Medium screens (e.g., tablets) */
 @media (max-width: 768px) {
     #name {
-        width: 80%; /* Slightly smaller on medium screens */
+        width: 100%; /* Slightly smaller on medium screens */
     }
 }
 

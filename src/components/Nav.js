@@ -25,7 +25,7 @@ const Nav = () => {
             <Alex Menu={isMenuOpen}/> 
         </div>
         <ul className={`navAnchors w-auto md:w-3/7 md:flex md:justify-center md:items-center  md:z-auto z-[-1] md:static md:pl-0
-                    ${isMenuOpen ? 'opacity-100 min-h-screen fixed inset-0 z-10 pl-7 bg-[#FFF8E7] pt-16' : 'opacity-0'} md:opacity-100 top[-400] transition-all ease-in opacity-0 duration-500 left-0 absolute text-[#34495E]`}>
+                    ${isMenuOpen ? 'flex flex-col opacity-100 min-h-screen fixed inset-0 z-10 pl-7 bg-[#FFF8E7] pt-16 gap-5' : 'opacity-0'} md:opacity-100 top[-400] transition-all ease-in opacity-0 duration-500 left-0 absolute text-[#34495E]`}>
            <Link 
                 activeClass="active" 
                 to="home" 

@@ -40,14 +40,14 @@ const AboutMe = () => {
           </div>
           <Link 
               activeClass="active" 
-              to="test1" 
+              to="contact" 
               spy={true} 
               smooth={true} 
               offset={-70} 
               duration={500}
               className='lg:hidden block'>
                 <button className='border-2 w-content hover:border-[#1ABC9C] hover:translate-x-1 transition transform ease-in-out duration-350 rounded-md bg-[#1ABC9C] px-4 py-1 my-4 font-4xl font-semibold text-[#FFF8E7] hover:text-[#1ABC9C] hover:bg-[#FFF8E7] drop-shadow-lg cursor-pointer'>
-                  <p>Reach out to me</p>
+                  <p>Message Me</p>
                 </button>
             </Link>
         </div>

@@ -85,7 +85,7 @@ const Nav = () => {
                 <img src={Doc} alt="Document icon" className='items-center w-[1.5rem] h-[1.5rem]' />
                 <p>&nbsp;Résumé</p>
             </a>
-            <a href="mailto:sibhatualexander77@gmail.com" rel='noreferrer' className='bg-[#34495E] px-2 cursor-pointer rounded-full text-lg text-[#FFF8E7]'>Find me</a>
+            <a href="mailto:sibhatualexander77@gmail.com" rel='noreferrer' className='bg-[#34495E] px-2 cursor-pointer rounded-full text-lg drop-shadow-lg border-2 hover:bg-[#1ABC9C] hover:text-[#34495E] hover:font-semibold transition transform ease-in-out duration-400 text-[#FFF8E7]'>Find me</a>
             
             
         </div>

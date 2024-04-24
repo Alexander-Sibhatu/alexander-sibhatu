@@ -25,18 +25,19 @@ const AboutMe = () => {
             </Link>
           </div>
           <div>
-              <p className='py-4 text-sm'>I actively pursue new opportunities for collaboration on 
-                projects involving captivating dashboards, innovative design 
-                systems, or impactful landing pages.</p> 
+              <p className='py-4 text-sm'>I am actively seeking volunteer opportunities to collaborate on 
+              projects involving captivating dashboards, innovative design systems, and impactful 
+              landing pages. I am eager to contribute my skills to a team that values creativity 
+              and technical acumen.</p> 
+
+              <p className='pb-4 text-sm'> Fluent in the languages of designers, developers, and users, I foster intelligent collaboration. 
+              I am a humble team player who possesses a genuine passion for crafting innovative solutions and contributing to a team 
+              that values creativity and technical acumen.</p>
               
-              <p className='pb-4 text-sm'>As a Software developer, I leverage my meticulous attention 
-                to detail, my unwavering passion for creation, and my 
-                mission-oriented work ethic to effect meaningful change in the world. 
-                I am enthusiastic about making a significant impact at a rapidly growing company.</p>
-              
-              <p className='pb-4 text-sm'>Fluent in the languages of designers, developers, and users, 
-                I foster intelligent collaboration. I am a humble team player 
-                who possesses a genuine passion for crafting innovative solutions.</p>
+              <p className='pb-4 text-sm'>Currently, I am open to a broad range of volunteer work, including website development, logo design, 
+              pamphlet creation, and other IT-related tasks. My expertise extends to IT support, technician roles, 
+              computer assistance, networking, and network installation. If you are looking for a dedicated volunteer who can 
+              add value to your projects, please feel free to get in touch!</p>
           </div>
           <Link 
               activeClass="active" 

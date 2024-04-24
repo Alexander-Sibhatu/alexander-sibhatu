@@ -48,7 +48,7 @@ const ContactMe = () => {
           </div>
           <div className='flex flex-wrap px-6'>Developed by
                                 Alexander Sibhatu © 2024
-                                Made with <span className='text-[#1ABC9C]'>React</span>&nbsp;and&nbsp;<span className='text-[#1ABC9C]'>Tailwind CSS</span></div>
+                                Made with <span className='text-[#1ABC9C]'><a href='https://react.dev/' rel='noreferrer' target='_blank'>React</a></span>&nbsp;and&nbsp;<span className='text-[#1ABC9C]'><a href='https://tailwindcss.com/' rel='noreferrer' target='_blank'>Tailwind CSS</a></span></div>
           <div className='hidden lg:block'>
             <p className='font-semibold'>Let’s get social</p>
             <p>Connect with me on <a href={socialIcons[0].url} rel='noreferrer' target='_blank' className='font-semibold cursor-pointer text-[#1ABC9C]'>Github</a>,<br />

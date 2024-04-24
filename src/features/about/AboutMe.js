@@ -25,14 +25,12 @@ const AboutMe = () => {
             </Link>
           </div>
           <div>
-              <p className='py-4 text-sm'>I am actively seeking volunteer opportunities to collaborate on 
-              projects involving captivating dashboards, innovative design systems, and impactful 
-              landing pages. I am eager to contribute my skills to a team that values creativity 
-              and technical acumen.</p> 
+              <p className='py-4 text-sm'>I am actively seeking volunteer opportunities to collaborate on projects involving captivating dashboards, 
+              innovative design systems, and impactful landing pages. Fluent in the languages of designers, developers, and users, 
+              I foster intelligent collaboration.</p> 
 
-              <p className='pb-4 text-sm'> Fluent in the languages of designers, developers, and users, I foster intelligent collaboration. 
-              I am a humble team player who possesses a genuine passion for crafting innovative solutions and contributing to a team 
-              that values creativity and technical acumen.</p>
+              <p className='pb-4 text-sm'> As a humble team player with a genuine passion for crafting innovative solutions, 
+              I am eager to contribute my skills to a team that values creativity and technical acumen.</p>
               
               <p className='pb-4 text-sm'>Currently, I am open to a broad range of volunteer work, including website development, logo design, 
               pamphlet creation, and other IT-related tasks. My expertise extends to IT support, technician roles, 

@@ -22,7 +22,7 @@ const Nav = () => {
             <span className='text-3xl cursor-pointer md:hidden block z-20 px-2'>
                 <ion-icon name={isMenuOpen ? 'close-outline' : 'menu-outline'}  onClick={toggleMenu}></ion-icon>
             </span>
-            <Alex Menu={isMenuOpen}/> 
+            <Alex Menu={isMenuOpen} className='w-[100%]'/> 
         </div>
         <ul className={`navAnchors w-auto md:w-3/7 md:flex md:justify-center md:items-center  md:z-auto z-[-1] md:static md:pl-0
                     ${isMenuOpen ? 'flex flex-col opacity-100 min-h-screen fixed inset-0 z-10 pl-7 bg-[#FFF8E7] pt-16 gap-5' : 'opacity-0'} md:opacity-100 top[-400] transition-all ease-in opacity-0 duration-500 left-0 absolute text-[#34495E]`}>

@@ -3,6 +3,8 @@ import Header from './features/Header';
 import Home from './features/home/Home';
 import About from './features/about/index'
 import ContactMe from './features/contact';
+import Experience from './features/experience/Experience';
+
 
 
 
@@ -14,6 +16,7 @@ function App() {
         <Header />
         <Home />
         <About />
+        <Experience />
         <ContactMe />
       </div>
     </div>

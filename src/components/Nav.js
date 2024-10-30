@@ -54,7 +54,7 @@ const Nav = () => {
             </Link>
             <Link 
                 activeClass="active" 
-                to="home" 
+                to="work" 
                 spy={true}
                 hashSpy={true}
                 delay={80}

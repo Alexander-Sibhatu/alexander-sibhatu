@@ -22,7 +22,7 @@ const Nav = () => {
             <span className='text-3xl cursor-pointer md:hidden block z-20 px-2'>
                 <ion-icon name={isMenuOpen ? 'close-outline' : 'menu-outline'}  onClick={toggleMenu}></ion-icon>
             </span>
-            <Alex Menu={isMenuOpen} className='w-[100%]'/> 
+            <Alex Menu={isMenuOpen} className='w-[100%] '/> 
         </div>
         <ul className={`navAnchors w-auto md:w-3/7 md:flex md:justify-center md:items-center  md:z-auto z-[-1] md:static md:pl-0
                     ${isMenuOpen ? 'flex flex-col opacity-100 min-h-screen fixed inset-0 z-10 pl-7 bg-[#FFF8E7] pt-16 gap-5' : 'opacity-0'} md:opacity-100 top[-400] transition-all ease-in opacity-0 duration-500 left-0 absolute text-[#34495E]`}>
@@ -37,7 +37,7 @@ const Nav = () => {
                 duration={500}
                 onClick={handleLinkClick} 
                 >
-                <li className='md:px-3 cursor-pointer hover:text-[#1ABC9C]'>Home</li>
+                <li className='md:px-3 cursor-pointer hover:text-[#1ABC9C]  transition-transform duration-500 ease-in-out transform'>Home</li>
             </Link>
             <Link 
                 activeClass="active" 
@@ -50,7 +50,7 @@ const Nav = () => {
                 duration={500}
                 onClick={handleLinkClick} 
                 >
-                <li className="md:px-3 cursor-pointer hover:text-[#1ABC9C]">About</li>
+                <li className="md:px-3 cursor-pointer hover:text-[#1ABC9C]  transition-transform duration-500 ease-in-out transform">About</li>
             </Link>
             <Link 
                 activeClass="active" 
@@ -63,7 +63,7 @@ const Nav = () => {
                 duration={500}
                 onClick={handleLinkClick}  
                 >
-                <li className="md:px-3 cursor-pointer hover:text-[#1ABC9C]">Work</li>
+                <li className="md:px-3 cursor-pointer hover:text-[#1ABC9C]  transition-transform duration-500 ease-in-out transform">Work</li>
             </Link>
             <Link 
                 activeClass="active" 
@@ -76,12 +76,12 @@ const Nav = () => {
                 duration={500}
                 onClick={handleLinkClick}  
                 >
-                <li className="md:px-3 cursor-pointer hover:text-[#1ABC9C]">Contact</li>
+                <li className="md:px-3 cursor-pointer hover:text-[#1ABC9C]  transition-transform duration-500 ease-in-out transform">Contact</li>
             </Link> 
         </ul>
         <div className={`${isMenuOpen ? 'hidden' :'talk flex flex-row justify-end  gap-4 w-1/2 md:w-2/7 text-sm sm:text-base md:text-lg lg:text-xl'}`}>
             
-            <a href='/Alexanders-CV.pdf' target='_blank' className='md:flex text-[#34495E] text-lg hidden'>
+            <a href='/Alexander_Sibhatu_CV_24_Oct.pdf' target='_blank' className='md:flex text-[#34495E] text-lg hidden'>
                 <img src={Doc} alt="Document icon" className='items-center w-[1.5rem] h-[1.5rem]' />
                 <p>&nbsp;Résumé</p>
             </a>

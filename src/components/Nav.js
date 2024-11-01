@@ -59,7 +59,7 @@ const Nav = () => {
                 hashSpy={true}
                 delay={80}
                 smooth={true} 
-                offset={0} 
+                offset={-80} 
                 duration={500}
                 onClick={handleLinkClick}  
                 >

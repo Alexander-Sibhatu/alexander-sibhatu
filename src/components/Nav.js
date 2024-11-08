@@ -81,9 +81,9 @@ const Nav = () => {
         </ul>
         <div className={`${isMenuOpen ? 'hidden' :'talk flex flex-row justify-end  gap-4 w-1/2 md:w-2/7 text-sm sm:text-base md:text-lg lg:text-xl'}`}>
             
-            <a href='/Alexander_Sibhatu_CV_24_Oct.pdf' target='_blank' className='md:flex text-[#34495E] text-lg hidden'>
-                <img src={Doc} alt="Document icon" className='items-center w-[1.5rem] h-[1.5rem] hover:bg-[#1ABC9C] hover:text-[#34495E]' />
-                <p>&nbsp;Résumé</p>
+            <a href='/Alexander_Sibhatu_CV_24_Oct.pdf' target='_blank' className='md:flex text-[#34495E] text-lg hidden hover:text-[#1ABC9C] hover:font-semibold'>
+                <img src={Doc} alt="Document icon" className='items-center w-[1.5rem] h-[1.5rem] fill-current color-[#1ABC9C]' />
+                <p className=''>&nbsp;Résumé</p>
             </a>
             <a href="mailto:sibhatualexander77@gmail.com" rel='noreferrer' className='bg-[#34495E] px-2 cursor-pointer rounded-full text-lg drop-shadow-lg border-2 hover:bg-[#1ABC9C] hover:text-[#34495E] hover:font-semibold transition transform ease-in-out duration-400 text-[#FFF8E7]'>Find me</a>
             

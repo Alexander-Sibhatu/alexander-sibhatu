@@ -12,7 +12,7 @@ const Home = () => {
           <div>
             <h2 className='text-left text-2xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#ff2990] to-[#1ABC9C]'>Alexander Sibhatu .</h2>
           </div>
-          <p className='flex w-4/5 py-3 text-center text-sm md:text-left text-[#333333]'>As a software developer more than three years of experience, 
+          <p className='flex w-4/5 py-3 text-center text-sm md:text-left text-[#333333]'>As a software developer with more than three years of experience, 
             my focus is on developing reliable and easy-to-use web solutions. 
             I have refined my expertise in designing, building, and deploying software. 
             I'm excited to collaborate and create something outstanding! 
